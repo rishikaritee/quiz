@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".guide">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:background="#3F51B5"
+            android:gravity="bottom"
+            android:text="Rules And Regulation"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView711"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/user" />
+
+            <TextView
+                android:id="@+id/textView71"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"
+                android:hint="USER NAME" />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000"
+
+        android:textSize="20dp"
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.No Negative Marking" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+    android:textColor="#ff000000"
+
+    android:textSize="20dp"
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.Don't navigate window"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000"
+
+        android:textSize="20dp"
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.Attempt all the Question" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000"
+
+        android:textSize="20dp"
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.Only 20 Question" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000"
+
+        android:textSize="20dp"
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.Mischeif activities not allowed" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView9"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ff000000"
+        android:text="6.Each question has 4 option" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:textColor="#ff000000"
+
+        android:textSize="20dp"
+        android:id="@+id/textView110"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7.Each question has only one correct answer " />
+
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:background="@drawable/corner_round"
+        android:id="@+id/button4"
+        android:layout_width="150dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:text="skip" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="170dp"
+        android:background="#3F51B5" />
+
+
+</LinearLayout>

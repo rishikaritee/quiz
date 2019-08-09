@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:orientation="vertical"
+    tools:context=".admin1">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:background="#3F51B5"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+
+         />
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:id="@+id/editText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+    android:hint="Enter Question" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:id="@+id/editText8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="1option" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="2 option" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:id="@+id/editText10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="3 option"
+        />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:id="@+id/editText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="4 option" />
+    <EditText
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#f000"
+        android:id="@+id/editText12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Answer" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button5"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="submit" />
+
+
+</LinearLayout>
